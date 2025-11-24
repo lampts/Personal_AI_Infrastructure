@@ -1,0 +1,16 @@
+# PAI - Personal AI Infrastructure
+# Minimal dependencies following Unix philosophy
+
+# Core dependencies
+click>=8.1.7          # CLI framework
+pyyaml>=6.0.1         # Config file parsing
+anthropic>=0.18.0     # Claude API client
+
+# Optional dependencies
+elevenlabs>=0.2.27    # Voice TTS (optional)
+
+# Development dependencies (uncomment for dev)
+# pytest>=7.4.4
+# pytest-cov>=4.1.0
+# black>=23.12.1
+# mypy>=1.8.0
